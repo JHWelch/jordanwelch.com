@@ -1,0 +1,17 @@
+{
+  "name": "jordanwelch.com",
+  "version": "1.0.0",
+  "description": "Marketing website for Jordan Welch",
+  "main": "public/index.html",
+  "scripts": {
+    "dev": "NODE_ENV=development postcss src/main.css -o public/css/jhw.css",
+    "prod": "NODE_ENV=production postcss src/main.css -o public/css/jhw.css"
+  },
+  "repository": "https://github.com/JHWelch/jordanwelch.com.git",
+  "author": "Jordan Welch <jwelch@highlandsolutions.com>",
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.13",
+    "tailwindcss": "^2.1.2"
+  }
+}

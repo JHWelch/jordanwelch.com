@@ -2,11 +2,15 @@ name: Deploy To Server
 on:
   push:
     branches:
-      - main
+    - main
+  pull_request:
+    branches:
+    - main
 jobs:
   deploy-to-server:
     environment: jordanwelch.com server
     runs-on: ubuntu-latest
+
     steps:
       - name: Trigger deployment on server
         uses: garygrossgarten/github-action-ssh@v0.6.3

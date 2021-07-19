@@ -12,7 +12,7 @@ jobs:
       - name: Trigger deployment on server
         uses: garygrossgarten/github-action-ssh@v0.6.3
         with:
-          command: bash ./dploy-scripts/dploy.sh jordanwelch.com
+          command: bash ./deploy-scripts/deploy.sh jordanwelch.com
           host: ${{ secrets.HOST }}
           username: dploy
           passphrase: ${{ secrets.PASSPHRASE }}

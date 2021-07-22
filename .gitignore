@@ -1,2 +1,6 @@
 node_modules
 public/css/jhw.css
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata

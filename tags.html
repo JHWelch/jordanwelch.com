@@ -1,0 +1,10 @@
+---
+layout: default
+title: Tags
+---
+{% assign tags = site.projects | map: 'tags' | uniq | sort %}
+<ul>
+{% for tag in tags %}
+  <li>{{ tag }}</li>
+{% endfor %}
+</ul>

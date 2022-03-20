@@ -1,3 +1,13 @@
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:name
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+        layout: "project"
 plugins:
   - jekyll-postcss
 exclude: [

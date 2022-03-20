@@ -1,0 +1,11 @@
+---
+layout: default
+---
+<h1>{{ page.name }}<h1>
+<h2>{{ page.type }}{% if page.client %} - {{ page.client }}{% endif %}</h2>
+<p>{{ page.short-description }}
+<ul>
+  {% for tag in page.tags %}
+    <li>{{ tag }}</li>
+  {% endfor %}
+</ul>

@@ -3,5 +3,5 @@ plugins:
 exclude: [
   'bin'
 ]
-url: 'https://JHWelch.github.io'
-baseurl: 'jordanwelch.com'
+url: 'http://jordanwelch.com'
+baseurl: ''

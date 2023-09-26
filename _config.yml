@@ -1,7 +1,12 @@
+url: 'https://jordanwelch.com'
+baseurl: ''
 plugins:
   - jekyll-postcss
 exclude: [
-  'bin'
+  'bin',
+  'README.md',
+  'package-lock.json',
+  'package.json',
+  'postcss.config.js',
+  'tailwind.config.js',
 ]
-url: 'https://jordanwelch.com'
-baseurl: ''

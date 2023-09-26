@@ -6,7 +6,6 @@ on:
 
 jobs:
   deploy-to-server:
-    environment: GitHub Pages
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2

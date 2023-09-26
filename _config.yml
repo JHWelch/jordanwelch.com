@@ -3,5 +3,5 @@ plugins:
 exclude: [
   'bin'
 ]
-url: 'http://jordanwelch.com'
+url: 'https://jordanwelch.com'
 baseurl: ''
